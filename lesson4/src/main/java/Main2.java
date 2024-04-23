@@ -13,18 +13,22 @@ public class Main2 {
 
         double min = arr[0];
         double max = arr[0];
-        double avg = 0;
+        double sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            if (min > arr[i])
+            if (min > arr[i]){
                 min = arr[i];
-            if (max < arr[i])
+            }
+            if (max < arr[i]){
                 max = arr[i];
-            avg += arr[i] / arr.length;
+            }
+            sum += arr[i];
+
 
         }
+        double avg = (Double)sum / arr.length;
         System.out.println("max= " + max);
-        System.out.println("min = " + min);
-        System.out.println("avg = " + avg);
+        System.out.println("min= " + min);
+        System.out.println("avg= " + avg);
     }
 }

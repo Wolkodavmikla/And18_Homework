@@ -25,7 +25,6 @@ public class Main1 {
 
         for (int i = 0; i < arr.length; i++){
             if (m == arr[i]){
-                el = arr[i];
                 System.out.println("Число, вошедшее в массив: " + el);
 
             }
