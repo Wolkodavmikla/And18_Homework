@@ -17,4 +17,5 @@ public class Wage {
         System.out.printf("Григорий: %s рублей\n", user2.getSavaryBonus(bonus));
         System.out.printf("Ольга: %s рублей\n", user3.getSavaryBonus(bonus));
     }
+
 }
