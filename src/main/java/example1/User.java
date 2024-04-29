@@ -27,21 +27,7 @@ public class User {
     }
 
     public double getSalary(){
-        double profCoef;
-        switch (profession) {
-            case DIRECTOR:
-                profCoef = 2.5;
-                break;
-            case WORKER:
-                profCoef = 1.5;
-                break;
-            case HR:
-                profCoef = 2;
-                break;
-            default:
-                profCoef = 1;
-        }
-        return 1000 * experience * profCoef;
+        return 1000 * experience * profession.getProfCoef();
 
     }
     public double getSavaryBonus(double bonus){
