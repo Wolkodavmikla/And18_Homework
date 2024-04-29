@@ -18,4 +18,4 @@ public class Main3 {
             System.out.println("Число не четное");
         }
     }
-    }
+}
