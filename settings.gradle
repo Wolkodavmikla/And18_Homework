@@ -1,8 +1,6 @@
 rootProject.name = 'And18_Homework'
 include 'lesson1'
 include 'lesson2'
-include 'lesson6'
-include 'lesson6'
 include 'lesson4'
 include 'lesson5'
 include 'lesson6'
